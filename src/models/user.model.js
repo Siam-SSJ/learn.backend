@@ -43,7 +43,7 @@ const userSchema = new Schema(
             required : [true, 'Password is required']
         },
         refrestToken :{
-            type: string
+            type: String
         }
     },
     {
